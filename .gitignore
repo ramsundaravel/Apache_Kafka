@@ -108,3 +108,5 @@ metastore_db
 spark-warehouse
 001_Netcat_Streaming/spark-warehouse
 derby.log
+.vscode/
+
