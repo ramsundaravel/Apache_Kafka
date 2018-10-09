@@ -1,0 +1,7 @@
+# open terminal 1
+# initialize a netcat server
+nc -l 4567
+
+# open terminal 2
+# run the spark program using spark-submit
+spark-submit 001_Sparkstreaming_Demo.py localhost 4567
