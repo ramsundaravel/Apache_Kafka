@@ -44,9 +44,7 @@ if __name__ =='__main__':
 
     wordcount = words.groupBy('word').count()
 
-    for i in lines:
-        print(i)
-
+    # data sink to console
     query = wordcount.writeStream\
                      .outputMode('complete')\
                      .format('console')\
