@@ -104,6 +104,6 @@ venv.bak/
 .mypy_cache/
 
 # metastore
-metastore/
-spark-warehouse/
+metastore_db
+spark-warehouse
 derby.log
